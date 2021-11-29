@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ockovacia loteria</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Výhercovia očkovacej lotérie</h1>
+        <noscript>
+            <div class="text-center">
+                <h3 class="color-red">Táto stránka vyžaduje na fungovanie povolený JavaScript!</h3>
+                Pre informácie o povolení JavaScriptu navštívte <a href="https://www.enable-javascript.com/sk/" target="_blank">https://www.enable-javascript.com/sk/</a>
+            </div>
+        </noscript>
+        <div class="loading" id="loading">
+            <h2>Prebieha načítavanie údajov...</h2>
+            <img src="assets/loading.svg">
+        </div>
+        <div id="content" style="display:none;">
+            <table id="table">
+                <tr>
+                    <th>KÓD</th>
+                    <th>VYHRAL(A)</th>
+                    <th>MENO</th>
+                    <th>OBEC</th>
+                    <th>VÝHRA</th>
+                    <th class="text-center td-small">ZRUŠIŤ<br>SLEDOVANIE</th>
+                </tr>
+            </table>
+            <hr>
+            <h2>Pridanie nového kódu na sledovanie</h2>
+            <input type="text" id="addcode_input" class="input1" name="code" placeholder="ABCD-1234-56EF" autocomplete="off" maxlength="14">
+            <input type="submit" id="addcode_btn" class="btn1" value="Pridať">
+        </div>
+    </div>
+    <div id="modal" class="modal"></div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js" crossorigin="anonymous"></script>
+<script src="assets/main.min.js"></script>
+</html>

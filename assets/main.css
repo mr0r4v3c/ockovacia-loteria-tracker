@@ -1,0 +1,123 @@
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	background-color: #131516;
+}
+
+.container {
+	width: 60%;
+	margin: auto;
+	margin-top: 5rem;
+	background-color: #282b2d;
+	padding: 10px;
+	border-radius: 5px
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 10px
+}
+
+td, th {
+	border: 1px solid #3a3e41;
+	padding: 8px
+}
+
+tr {
+	background-color: #1f2223;
+}
+
+tr:nth-child(even) {
+	background-color: #25282a;
+}
+
+tr:hover {
+	background-color: #2b2f30
+}
+
+th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #377ae6;
+	color: #fff
+}
+
+.win {
+	color: #149629;
+	font-weight: 700
+}
+
+.not-win {
+	color: red;
+	font-weight: 700
+}
+
+.btn1 {
+	background-color: #377ae6;
+	color: #fff;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+	font-size: 14px;
+	padding: 5px
+}
+
+.btn1:disabled {
+	filter: brightness(75%);
+	cursor: wait;
+}
+
+.input1 {
+	font-size: 14px;
+	padding: 5px;
+	border: 1px solid #b4b4b4;
+}
+
+h1 {
+	font-size: 24px;
+	text-align: center
+}
+
+h2 {
+	font-size: 16px;
+	margin-top: 20px
+}
+
+.text-center {
+	text-align: center
+}
+
+.td-small {
+	font-size: 10px;
+    width: 30px;
+}
+
+.delete-btn {
+	cursor: pointer;
+}
+
+small {
+	color: #474747;
+}
+
+.loading {
+    display: none;
+	color: #b4b4b4;
+	margin: auto;
+	text-align: center;
+}
+
+.color-red {
+	color: red;
+}
+
+.modal {
+	font-size: 18px;
+	background-color: #181a1b;
+}
+
+h3 {
+    margin: 5px;
+}
